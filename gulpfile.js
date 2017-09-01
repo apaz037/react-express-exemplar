@@ -1,6 +1,9 @@
 var gulp = require('gulp');
 var liveServer = require('gulp-live-server');
 var browserSync = require('browser-sync');
+var browserify - require('browserify');
+var reactify = require('reactify');
+
 
 gulp.task('live-server',function(){
   var server = new liveServer('server/main.js');
@@ -12,5 +15,14 @@ gulp.task('serve',['live-server'],function() {
     proxy: "http://localhost:7777",
     port: 9001
   });
+
+gulp.task('bundle',function*(){
+  return browserify({
+    entries:'app/main.jsx',
+    debug: true,
+  })
+  .transform(reactify)
+  .bundle()
+})
 
 })
