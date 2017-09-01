@@ -1,0 +1,25 @@
+{
+  "name": "react-express-exemplar",
+  "version": "1.0.0",
+  "description": "Pluralsight Course - Building a Full-Stack App with React and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apaz037/react-express-exemplar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apaz037/react-express-exemplar/issues"
+  },
+  "homepage": "https://github.com/apaz037/react-express-exemplar#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.31"
+  }
+}

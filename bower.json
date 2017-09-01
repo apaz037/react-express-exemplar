@@ -1,0 +1,14 @@
+{
+  "name": "react-express-exemplar",
+  "description": "Pluralsight Course - Building a Full-Stack App with React and Express",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/apaz037/react-express-exemplar",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
